@@ -1,0 +1,6 @@
+numpy>=1.21
+scipy>=1.7
+
+# Real-data preprocessing only (experiments/real_screens.py):
+# scanpy>=1.9
+# anndata>=0.8
