@@ -1,6 +1,6 @@
 # perturb_design
 
-Reference implementation for the paper **"A second measurement channel recovers
+Implementation for the paper **"A second measurement channel recovers
 discarded genetic interactions"**.
 
 Combinatorial perturbation screens estimate genetic interaction as the deviation of
