@@ -93,16 +93,6 @@ Download and harmonise them following Peidli et al. 2024 (scPerturb,
 runs the leak-free held-out comparison, the identifiable/gauge decomposition
 (Theorem 3 check), and the certificate.
 
-## Notes on scope
-
-This is a clean-room reference implementation written from the equations and
-experimental descriptions in the paper. The synthetic experiments regenerate their
-data internally and reproduce the reported synthetic numbers directly. The
-real-data scripts are a documented pipeline: they require the public datasets above
-and their preprocessing, and are the route to reproduce the real-screen numbers. The
-gap-moment noise estimator of Theorem 7 is consistent in the regime described in
-`perturb_design/sure.py` (heterogeneous-degree designs, many genes, interaction
-small relative to double noise); outside it, use the naive-residual proxy for σ_d².
 
 ## License
 
