@@ -1,7 +1,7 @@
 # perturb_design
 
 Reference implementation for the paper **"A second measurement channel recovers
-discarded genetic interactions"** (S. Ali).
+discarded genetic interactions"**.
 
 Combinatorial perturbation screens estimate genetic interaction as the deviation of
 a double-perturbation phenotype from the sum of its two single-perturbation effects,
@@ -103,16 +103,6 @@ and their preprocessing, and are the route to reproduce the real-screen numbers.
 gap-moment noise estimator of Theorem 7 is consistent in the regime described in
 `perturb_design/sure.py` (heterogeneous-degree designs, many genes, interaction
 small relative to double noise); outside it, use the naive-residual proxy for σ_d².
-
-## Citation
-
-```bibtex
-@article{ali_second_channel,
-  title   = {A second measurement channel recovers discarded genetic interactions},
-  author  = {Ali, S.},
-  year    = {2025}
-}
-```
 
 ## License
 
